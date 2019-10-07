@@ -1,0 +1,13 @@
+const {
+  VUE_APP_BRAND_PREFIX = '',
+} = process.env
+
+const APP_TOKEN_KEY: string = `${VUE_APP_BRAND_PREFIX}TOKEN`
+const APP_USERNAME_KEY: string = `${VUE_APP_BRAND_PREFIX}USERNAME`
+const APP_LANGUAGE_KEY: string = `${VUE_APP_BRAND_PREFIX}LANGUAGE`
+
+export {
+  APP_TOKEN_KEY,
+  APP_USERNAME_KEY,
+  APP_LANGUAGE_KEY,
+}

@@ -1,0 +1,3 @@
+
+export const SET_LANGUAGE = 'SET_LANGUAGE'
+export const TOGGLE_COLLAPSE = 'TOGGLE_COLLAPSE'
