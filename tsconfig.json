@@ -18,60 +18,6 @@
     "paths": {
       "@/*": [
         "src/*"
-      ],
-      "@assets/*": [
-        "src/assets/*"
-      ],
-      "@config/*": [
-        "src/config/*"
-      ],
-      "@constants/*": [
-        "src/constants/*"
-      ],
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@directives/*": [
-        "src/directives/*"
-      ],
-      "@filters/*": [
-        "src/filters/*"
-      ],
-      "@fonts/*": [
-        "src/assets/fonts/*"
-      ],
-      "@icons/*": [
-        "src/icons/*"
-      ],
-      "@i18n/*": [
-        "src/i18n/*"
-      ],
-      "@images/*": [
-        "src/images/assets/*"
-      ],
-      "@plugins/*": [
-        "src/plugins/*"
-      ],
-      "@router/*": [
-        "src/router/*"
-      ],
-      "@services/*": [
-        "src/services/*"
-      ],
-      "@styles/*": [
-        "src/styles/*"
-      ],
-      "@store/*": [
-        "src/store/*"
-      ],
-      "@typings/*": [
-        "src/typings/*"
-      ],
-      "@utils/*": [
-        "src/utils/*"
-      ],
-      "@views/*": [
-        "src/views/*"
       ]
     },
     "lib": [

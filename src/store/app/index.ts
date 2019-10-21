@@ -4,9 +4,9 @@ import {
   MutationTree,
 } from 'vuex'
 import * as types from '../mutation-types'
-import * as Storage from '@utils/storage'
-import routers from '@router/routes'
-import { AppRouteConfig } from '@typings/index'
+import * as Storage from '@/utils/storage'
+import routers from '@/router/routes'
+import { AppRouteConfig } from '@/typings'
 
 const namespaced: boolean = true
 

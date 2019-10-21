@@ -25,7 +25,7 @@ import {
   Vue,
   Component,
 } from 'vue-property-decorator'
-import { localeKeys } from '@i18n/index'
+import { localeKeys } from '@/i18n'
 import { namespace } from 'vuex-class'
 
 const app = namespace('app')

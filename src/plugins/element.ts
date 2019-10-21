@@ -1,33 +1,32 @@
 import Vue from 'vue'
 import {
-  Dropdown,
-  DropdownMenu,
-  DropdownItem,
   Button,
   Input,
   Select,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
   Menu,
   MenuItem,
   MenuItemGroup,
-  Message,
-  Notification,
-  Submenu,
   Form,
   FormItem,
   Tooltip,
+  Message,
+  MessageBox,
+  Notification,
 } from 'element-ui'
 
-Vue.prototype.$ELEMENT = { size: 'medium', zIndex: 9999 }
+Vue.prototype.$ELEMENT = { size: 'medium', zIndex: 99999 }
 
-Vue.use(Dropdown)
-Vue.use(DropdownMenu)
-Vue.use(DropdownItem)
 Vue.use(Button)
 Vue.use(Input)
 Vue.use(Select)
+Vue.use(Dropdown)
+Vue.use(DropdownItem)
+Vue.use(DropdownMenu)
 Vue.use(Menu)
 Vue.use(MenuItem)
-Vue.use(Submenu)
 Vue.use(MenuItemGroup)
 Vue.use(Form)
 Vue.use(FormItem)
@@ -35,3 +34,4 @@ Vue.use(Tooltip)
 
 Vue.prototype.$message = Message
 Vue.prototype.$notify = Notification
+Vue.prototype.$confirm = MessageBox

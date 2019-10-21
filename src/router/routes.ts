@@ -1,5 +1,5 @@
 import Layout from '@/views/layouts/default/index.vue'
-import { AppRouteConfig } from '@typings/index'
+import { AppRouteConfig } from '@/typings'
 
 const routes: AppRouteConfig[] = [
   {

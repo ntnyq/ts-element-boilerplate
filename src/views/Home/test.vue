@@ -18,7 +18,7 @@ import {
   Component,
 } from 'vue-property-decorator'
 // @ts-ignore: can't import from scss file
-import { primaryColor } from '@styles/core/_variables.scss'
+import { primaryColor } from '@/styles/core/_variables.scss'
 
 @Component({
   name: 'Test',

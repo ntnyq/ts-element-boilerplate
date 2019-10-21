@@ -60,7 +60,7 @@ import {
   Prop,
   Component,
 } from 'vue-property-decorator'
-import { AppRouteConfig } from '@typings/index'
+import { AppRouteConfig } from '@/typings'
 
 import NavItem from './NavItem.vue'
 
@@ -85,7 +85,7 @@ export default class SidebarItem extends Vue {
   get visibleChildrenRoutes () {
     const { item } = this
 
-    return item.children ? item.children.filter(item => !item.hidden) : []
+    return item.children ? item.children.filter((item: AppRouteConfig) => !item.hidden) : []
   }
 
   hasOneVisibleChild (children: AppRouteConfig[], parent: AppRouteConfig) {

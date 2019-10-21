@@ -18,7 +18,8 @@ import {
   name: 'SvgIcon',
 })
 export default class SvgIcon extends Vue {
-  @Prop({ required: true }) private name!: string
+  @Prop({ required: true })
+  private name!: string
 }
 </script>
 

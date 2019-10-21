@@ -1,9 +1,9 @@
 /**
  * Check if username valid
- * @param [string] str username
+ * @param {string} val username
  */
-export function isvalidUsername (str: string): boolean {
+export function isvalidUsername (val: string): boolean {
   const validNames = ['admin', 'editor']
 
-  return validNames.includes(str)
+  return validNames.includes(val)
 }

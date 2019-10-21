@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
-import * as Storage from '@utils/storage'
+import * as Storage from '@/utils/storage'
 
 Vue.use(VueI18n)
 
 const localeKeys: string[] = []
 
 interface Messages {
-  [prop: string]: any
+  [prop: string]: any;
 }
 
 const {

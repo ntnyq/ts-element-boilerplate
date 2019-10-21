@@ -1,1 +1,1 @@
-export { formatTime } from '@utils/index'
+export { formatTime } from '@/utils'

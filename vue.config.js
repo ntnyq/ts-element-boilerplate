@@ -1,5 +1,4 @@
 const path = require('path')
-const { aliases, plugins } = require('./project.config')
 const resolve = (...args) => path.resolve(__dirname, ...args)
 
 module.exports = {
@@ -10,7 +9,7 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        prependData: '@import "@styles/core/style";',
+        prependData: '@import "@/styles/core/style";',
       },
     },
   },
@@ -21,8 +20,6 @@ module.exports = {
   },
 
   configureWebpack: config => {
-    config.plugins.push(...plugins)
-    config.resolve.alias = { ...config.resolve.alias, ...aliases }
   },
 
   chainWebpack: config => {

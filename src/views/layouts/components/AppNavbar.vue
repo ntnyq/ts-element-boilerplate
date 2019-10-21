@@ -49,7 +49,7 @@ import {
   Component,
 } from 'vue-property-decorator'
 import { namespace } from 'vuex-class'
-import LangSelect from '@components/LangSelect/index.vue'
+import LangSelect from '@/components/LangSelect/index.vue'
 
 interface Command {
   readonly name: string;

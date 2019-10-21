@@ -1,7 +1,7 @@
 import Cookies from 'js-cookie'
 import {
   APP_LANGUAGE_KEY,
-} from '@constants/storage-key'
+} from '@/constants/storage-key'
 
 export function getLanguage () {
   return Cookies.get(APP_LANGUAGE_KEY)
